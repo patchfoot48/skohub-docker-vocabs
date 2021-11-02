@@ -4,15 +4,12 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fcolor%2Fb0001",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fcolor%2Fb0001",
   "prefLabel": {
-    "en": "violet",
-    "de": "Violett"
+    "en": "dark blue",
+    "de": "dunkel blau"
   },
   "altLabel": {
     "en": [
-      "purple"
-    ],
-    "de": [
-      "lila"
+      "navy blue"
     ]
   },
   "inScheme": {

@@ -1,15 +1,15 @@
 {
-  "id": "https://example.org/color/b0001",
+  "id": "https://example.org/color/b0002",
   "type": "Concept",
-  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fcolor%2Fb0001",
-  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fcolor%2Fb0001",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2Fcolor%2Fb0002",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2Fcolor%2Fb0002",
   "prefLabel": {
-    "en": "dark blue",
-    "de": "dunkel blau"
+    "en": "dark green",
+    "de": "dunkel gruen"
   },
   "altLabel": {
     "en": [
-      "navy blue"
+      "grass green"
     ]
   },
   "inScheme": {
@@ -18,9 +18,6 @@
       "en": "Colors",
       "de": "Farben"
     }
-  },
-  "topConceptOf": {
-    "id": "https://example.org/color/"
   },
   "@context": {
     "@version": 1.1,
