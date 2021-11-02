@@ -16,6 +16,6 @@ color:b0001 a skos:Concept ;
     skos:topConceptOf color: .
 
 color:b0002 a skos:Concept ;
-    skos:prefLabel "dunkel grün"@de, "dark green"@en ;
+    skos:prefLabel "dunkel gruen"@de, "dark green"@en ;
     skos:altLabel ""@de, "grass green"@en ;
     skos:topConceptOf color: .
