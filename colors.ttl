@@ -16,5 +16,9 @@ color:b0001 a skos:Concept ;
     skos:topConceptOf color: .
 
 color:b0001 a skos:Concept ;
-    skos:prefLabel "red"@en ;
+    skos:prefLabel "red"@en, "rot"@de;
+    skos:topConceptOf color: .
+
+color:b0001 a skos:Concept ;
+    skos:prefLabel "green"@en ;
     skos:topConceptOf color: .
