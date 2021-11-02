@@ -14,3 +14,7 @@ color:b0001 a skos:Concept ;
     skos:prefLabel "Violett"@de, "violet"@en ;
     skos:altLabel "lila"@de, "purple"@en ;
     skos:topConceptOf color: .
+
+color:b0001 a skos:Concept ;
+    skos:prefLabel "red"@en ;
+    skos:topConceptOf color: .
