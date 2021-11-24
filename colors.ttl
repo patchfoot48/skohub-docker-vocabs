@@ -8,7 +8,7 @@ color: a skos:ConceptScheme ;
     dct:creator "Hans Dampf"@de ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept color:b0001, b0002.
+    skos:hasTopConcept color:b0001, color:b0002.
 
 color:b0001 a skos:Concept ;
     skos:prefLabel "dunkel blau"@de, "dark blue"@en ;
@@ -17,5 +17,5 @@ color:b0001 a skos:Concept ;
 
 color:b0002 a skos:Concept ;
     skos:prefLabel "dunkel gruen"@de, "dark green"@en ;
-    skos:altLabel ""@de, "grass green"@en ;
-    skos:inScheme color: .
+    skos:altLabel "grass grün"@de, "grass green"@en ;
+    skos:topConceptOf color: .
