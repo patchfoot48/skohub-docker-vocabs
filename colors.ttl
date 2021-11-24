@@ -8,11 +8,11 @@ color: a skos:ConceptScheme ;
     dct:creator "Hans Dampf"@de ;
     dct:created "2021-11-02"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept color:b0001.
+    skos:hasTopConcept color:b0001, b0002.
 
 color:b0001 a skos:Concept ;
     skos:prefLabel "dunkel blau"@de, "dark blue"@en ;
-    skos:altLabel ""@de, "navy blue"@en ;
+    skos:altLabel "ultramarine"@de, "navy blue"@en ;
     skos:topConceptOf color: .
 
 color:b0002 a skos:Concept ;
