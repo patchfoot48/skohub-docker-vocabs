@@ -1,0 +1,26 @@
+@prefix fid: <https://example.org/fid/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+fid: a skos:ConceptScheme ;
+    dct:title "fid with hierarchy"@en, "FID mit Hierarchie"@de ;
+    dct:creator "Patch Foot"@de ;
+    dct:created "2021-11-25"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept neuroscience:systems_neuroscience, neuroscience:computational_neuroscience .
+
+neuroscience:systems_neuroscience a skos:Concept ;
+    skos:prefLabel "Systemneurowissenschaft"@de, "systems neuroscience"@en ;
+    skos:altLabel ""@de, ""@en ;
+    skos:topConceptOf neuroscience: .
+
+neuroscience:computational_neuroscience a skos:Concept ;
+    skos:prefLabel "computational neuroscience"@en, "Kodierungsneurowissenschaften"@de ;
+    skos:narrower neuroscience:data_science ;
+    skos:topConceptOf neuroscience: .
+    
+neuroscience:data_science a skos:Concept ;
+    skos:prefLabel "data science"@en, "datenwissenschaft"@de ;
+    skos:broader neuroscience:computational_neuroscience ;
+    skos:inScheme neuroscience: .
