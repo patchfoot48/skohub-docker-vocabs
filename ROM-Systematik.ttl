@@ -8,7 +8,7 @@ ROM-Systematik: a skos:ConceptScheme ;
     dct:creator "DG"@de ;
     dct:created "2021-11-25"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept ROM-Systematik:ROM_A , ROM_B , ROM_C , ROM_D.
+    skos:hasTopConcept ROM-Systematik:ROM_B, ROM-Systematik:ROM_C, ROM-Systematik:ROM_D.
 
 ROM-Systematik:ROM_A a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen"@de, "Romance_Languages"@en ;
