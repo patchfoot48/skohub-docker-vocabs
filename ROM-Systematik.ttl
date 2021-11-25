@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ROM-Systematik: a skos:ConceptScheme ;
-    dct:title "classification"@en, "Systematik"@de ;
+    dct:title "classification"@en, "ROM-Systematik"@de ;
     dct:creator "DG"@de ;
     dct:created "2021-11-25"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
@@ -20,10 +20,10 @@ ROM-Systematik:ROM_B a skos:Concept ;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_C a skos:Concept ;
-    skos:prefLabel "green"@en ;
+    skos:prefLabel "Französische_Sprache"@en ;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_C_1 a skos:Concept ;
-    skos:prefLabel "Romanische_Sprachen/Formalgruppen"@de ;
+    skos:prefLabel "Französische_Sprache/Formalgruppen"@de ;
     skos:broader ROM-Systematik:ROM_C ;
     skos:inScheme ROM-Systematik: .
