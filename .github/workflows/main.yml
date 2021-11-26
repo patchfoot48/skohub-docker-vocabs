@@ -31,7 +31,7 @@ jobs:
 
       - run: mkdir data
 
-      - run: git clone https://github.com/FIDROM/skohub-docker-vocabs.git data/
+      - run: git clone https://github.com/FIDROM/https-fidrom.github.io-skohub-docker-vocabs-.git data/
 
       - name: make .env.production file
         run: echo "BASEURL=/skohub-docker-vocabs" > .env.production
