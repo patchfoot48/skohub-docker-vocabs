@@ -12,7 +12,6 @@ ROM-Systematik: a skos:ConceptScheme ;
 
 ROM-Systematik:ROM_A a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen"@de, "Romance_Languages"@en ;
-    skos:altLabel "lila"@de, "purple"@en ;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_B a skos:Concept ;
