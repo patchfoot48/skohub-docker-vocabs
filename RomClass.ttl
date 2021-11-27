@@ -8,15 +8,14 @@ ROM-Systematik: a skos:ConceptScheme ;
     dct:creator "DG"@de ;
     dct:created "2021-11-27"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    skos:hasTopConcept ROM-Systematik:ROM_A, ROM-Systematik:ROM_B, ROM-Systematik:ROM_C, ROM-Systematik:ROM_D, ROM-Systematik:ROM_E, ROM-Systematik:ROM_F .
+    skos:hasTopConcept ROM-Systematik:ROM_A, ROM-Systematik:ROM_B, ROM-Systematik:ROM_C, ROM-Systematik:ROM_D, ROM-Systematik:ROM_E, ROM-Systematik:ROM_F, ROM-Systematik:ROM_U .
 
 ROM-Systematik:ROM_A a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen"@de, "Romance_Languages"@en ;
-    skos:altLabel "lila"@de, "purple"@en ;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_B a skos:Concept ;
-    skos:prefLabel "Romanische_Literaturen"@en, "Romance_Literatures"@de;
+    skos:prefLabel "Romanische_Literaturen"@de, "Romance_Literatures"@en ;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_C a skos:Concept ;
@@ -39,3 +38,7 @@ ROM-Systematik:ROM_E a skos:Concept ;
 ROM-Systematik:ROM_F a skos:Concept ;
     skos:prefLabel "Italienische_Literatur"@de, "Italian_Literature"@en;
     skos:topConceptOf ROM-Systematik: . 
+
+ROM-Systematik:ROM_U a skos:Concept ;
+    skos:prefLabel "Spanische_Literatur"@de, "Spanish_Literature"@en;
+    skos:topConceptOf ROM-Systematik: .
