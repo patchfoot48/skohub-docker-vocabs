@@ -28,7 +28,7 @@ ROM-Systematik:ROM_C_1 a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_D a skos:Concept ;
-    skos:prefLabel "Französische_Sprache"@de, "French_Literature"@en;
+    skos:prefLabel "Französische_Literatur"@de, "French_Literature"@en;
     skos:topConceptOf ROM-Systematik: .
     
 ROM-Systematik:ROM_E a skos:Concept ;
