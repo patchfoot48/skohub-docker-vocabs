@@ -1,0 +1,30 @@
+
+@prefix ROM-Systematik: <https://example.org/systematik/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ROM-Systematik: a skos:ConceptScheme ;
+    dct:title "classification"@en, "ROM-Systematik"@de ;
+    dct:creator "DG"@de ;
+    dct:created "2021-11-25"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept ROM-Systematik:ROM_A, ROM-Systematik:ROM_B, ROM-Systematik:ROM_C, ROM-Systematik:ROM_D.
+
+ROM-Systematik:ROM_A a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen"@de, "Romance_Languages"@en ;
+    skos:altLabel "lila"@de, "purple"@en ;
+    skos:topConceptOf ROM-Systematik: .
+
+ROM-Systematik:ROM_B a skos:Concept ;
+    skos:prefLabel "Romanische_Literaturen"@en, "Romance_Literatures"@de;
+    skos:topConceptOf ROM-Systematik: .
+
+ROM-Systematik:ROM_C a skos:Concept ;
+    skos:prefLabel "Französische_Sprache"@en ;
+    skos:topConceptOf ROM-Systematik: .
+
+ROM-Systematik:ROM_C_1 a skos:Concept ;
+    skos:prefLabel "Französische_Sprache/Formalgruppen"@de ;
+    skos:broader ROM-Systematik:ROM_C ;
+    skos:inScheme ROM-Systematik: .
