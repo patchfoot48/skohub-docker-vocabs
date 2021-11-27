@@ -16,7 +16,7 @@ ROM-Systematik:ROM_A a skos:Concept ;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_B a skos:Concept ;
-    skos:prefLabel "Romanische_Literaturen"@en, "Romance_Literatures"@de;
+    skos:prefLabel "Romanische_Literaturen"@de, "Romance_Literatures"@en ;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_C a skos:Concept ;
