@@ -14,6 +14,76 @@ ROM-Systematik:ROM_A a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen"@de, "Romance_Languages"@en ;
     skos:topConceptOf ROM-Systematik: .
 
+ROM-Systematik:ROM_A_1 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Formalgruppen"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_6 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Wissenschaftsgeschichte__Wissenschaftliches_Arbeiten__Methoden"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_11 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Wesen und Geschichte"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_21 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Beziehungen_zu_anderen_Sprachen__Übersetzung"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_41_bis_80 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Grammatik"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_81_bis_140 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Lexikologie"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_141 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Wörterbücher"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_231 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Metrik__Rhythmus"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_236 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Sprachpflege_Sprachpolitik"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_241 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Sprachebenen_Soziolinguistik_Pragmatik"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_261 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Fachsprachen_Sondersprachen"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_271 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Sprachgeographie"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_286 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Kreolisch"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_999 a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Fachdidaktik"@de ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
 ROM-Systematik:ROM_B a skos:Concept ;
     skos:prefLabel "Romanische_Literaturen"@de, "Romance_Literatures"@en ;
     skos:topConceptOf ROM-Systematik: .
