@@ -24,6 +24,11 @@ ROM-Systematik:ROM_A_6 a skos:Concept ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
+ROM-Systematik:ROM_A_6a a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Wissenschaftsgeschichte__Wissenschaftliches_Arbeiten__Methoden/Allgemeines"@de ;
+    skos:broader ROM-Systematik:ROM_A_6;
+    skos:inScheme ROM-Systematik: .
+
 ROM-Systematik:ROM_A_11 a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen/Wesen und Geschichte"@de ;
     skos:broader ROM-Systematik:ROM_A ;
@@ -99,8 +104,8 @@ ROM-Systematik:ROM_C_1 a skos:Concept ;
 
 ROM-Systematik:ROM_D a skos:Concept ;
     skos:prefLabel "Französische_Literatur"@de, "French_Literature"@en;
-    skos:topConceptOf ROM-Systematik: .
-    
+    skos:topConceptOf ROM-Systematik: . 
+
 ROM-Systematik:ROM_E a skos:Concept ;
     skos:prefLabel "Italienische_Sprache"@de, "Italian_Language"@en;
     skos:topConceptOf ROM-Systematik: .
