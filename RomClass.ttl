@@ -17,6 +17,7 @@ ROM-Systematik:ROM_A a skos:Concept ;
 ROM-Systematik:ROM_A_1 a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen/Bibliographien_Nachschlagewerke_Sammelwerke"@de, "Bibliographies__Reference_Works_Collections"@en ; 
     skos:broader ROM-Systematik:ROM_A;
+    skos:narrower ROM-Systematik:ROM_A_1a, ROM-Systematik:ROM_A_1b, ROM-Systematik:ROM_A_1d, ROM-Systematik:ROM_A_1g, ROM-Systematik:ROM_A_1k, ROM-Systematik:ROM_A_1l, ROM-Systematik:ROM_A_1p ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_1a a skos:Concept ;
@@ -33,7 +34,6 @@ ROM-Systematik:ROM_A_1d a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen/Bibliographien_Nachschlagewerke_Sammelwerke/Sammelwerke"@de, "Collections"@en ;
     skos:broader ROM-Systematik:ROM_A_1 ;
     skos:inScheme ROM-Systematik: .
-
 
 ROM-Systematik:ROM_A_1g a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen/Bibliographien_Nachschlagewerke_Sammelwerke/Tagungsberichte"@de, "Congress_Reports"@en ;
@@ -139,7 +139,7 @@ ROM-Systematik:ROM_C_1 a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_D a skos:Concept ;
-    skos:prefLabel "Französische_Literatur"@de, "French_Literature"@en;
+    skos:prefLabel "Franz_Literatur"@de, "French_Literature"@en;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_D_1 a skos:Concept ;
