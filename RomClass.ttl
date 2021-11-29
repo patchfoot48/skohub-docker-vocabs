@@ -107,7 +107,7 @@ ROM-Systematik:ROM_D a skos:Concept ;
     skos:topConceptOf ROM-Systematik: . 
 
 ROM-Systematik:ROM_D_1 a skos:Concept ;
-    skos:prefLabel "Französische_Literatur/Bibliographien_Nachschlagewerke"@de ;
+    skos:prefLabel "Französische_Literatur/Bibliographien_Nachschlagewerke"@de, "French_Literature/Bibliographies__Reference_Works"@en ;
     skos:broader ROM-Systematik:ROM_D ;
     skos:inScheme ROM-Systematik: .
 
