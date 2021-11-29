@@ -29,22 +29,28 @@ ROM-Systematik:ROM_A_1b a skos:Concept ;
     skos:broader ROM-Systematik:ROM_A_1 ;
     skos:inScheme ROM-Systematik: .
 
-ROM-Systematik:ROM_A_1 a skos:Concept ;
+ROM-Systematik:ROM_A_1d a skos:Concept ;
+    skos:prefLabel "Romanische_Sprachen/Bibliographien_Nachschlagewerke_Sammelwerke/Sammelwerke"@de, "Collections"@en ;
+    skos:broader ROM-Systematik:ROM_A_1 ;
+    skos:inScheme ROM-Systematik: .
+
+
+ROM-Systematik:ROM_A_1g a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen/Bibliographien_Nachschlagewerke_Sammelwerke/Tagungsberichte"@de, "Congress_Reports"@en ;
     skos:broader ROM-Systematik:ROM_A_1 ;
     skos:inScheme ROM-Systematik: .
 
-ROM-Systematik:ROM_A_1 a skos:Concept ;
+ROM-Systematik:ROM_A_1k a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen/Bibliographien_Nachschlagewerke_Sammelwerke/Gesamtdarstellungen"@de, "General_Works"@en ;
     skos:broader ROM-Systematik:ROM_A_1 ;
     skos:inScheme ROM-Systematik: .
 
-ROM-Systematik:ROM_A_1 a skos:Concept ;
+ROM-Systematik:ROM_A_1l a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen/Bibliographien_Nachschlagewerke_Sammelwerke/Lexika"@de, "Dictionaries_Encyclopedias"@en ;
     skos:broader ROM-Systematik:ROM_A_1 ;
     skos:inScheme ROM-Systematik: .
 
-ROM-Systematik:ROM_A_1 a skos:Concept ;
+ROM-Systematik:ROM_A_1p a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen/Bibliographien_Nachschlagewerke_Sammelwerke/Textsammlungen"@de, "Anthologies"@en ;
     skos:broader ROM-Systematik:ROM_A_1 ;
     skos:inScheme ROM-Systematik: .
@@ -130,6 +136,15 @@ ROM-Systematik:ROM_C a skos:Concept ;
 ROM-Systematik:ROM_C_1 a skos:Concept ;
     skos:prefLabel "Französische_Sprache/Formalgruppen"@de ;
     skos:broader ROM-Systematik:ROM_C ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_D a skos:Concept ;
+    skos:prefLabel "Französische_Literatur"@de, "French_Literature"@en;
+    skos:topConceptOf ROM-Systematik: .
+
+ROM-Systematik:ROM_D_1 a skos:Concept ;
+    skos:prefLabel "Französische_Literatur/Bibliographien_Nachschlagewerke"@de ;
+    skos:broader ROM-Systematik:ROM_D ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_E a skos:Concept ;
