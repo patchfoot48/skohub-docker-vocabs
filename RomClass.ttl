@@ -61,10 +61,31 @@ ROM-Systematik:ROM_A_1p a skos:Concept ;
 ROM-Systematik:ROM_A_6 a skos:Concept ;
     skos:prefLabel "Wissenschaftsgeschichte__Wissenschaftliches_Arbeiten__Methoden"@de ;
     skos:broader ROM-Systematik:ROM_A ;
+    skos:narrower ROM-Systematik:ROM_A_6a, ROM-Systematik:ROM_A_6d, ROM-Systematik:ROM_A_6l, ROM-Systematik:ROM_A_6s, ROM-Systematik:ROM_A_6z ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_6a a skos:Concept ;
     skos:prefLabel "Allgemeines"@de ;
+    skos:broader ROM-Systematik:ROM_A_6;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_6d a skos:Concept ;
+    skos:prefLabel "Friedrich Diez"@de ;
+    skos:broader ROM-Systematik:ROM_A_6;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_6l a skos:Concept ;
+    skos:prefLabel "Heinrich Lausberg"@de ;
+    skos:broader ROM-Systematik:ROM_A_6;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_6s a skos:Concept ;
+    skos:prefLabel "Ferdinand de Saussure"@de ;
+    skos:broader ROM-Systematik:ROM_A_6;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_6z a skos:Concept ;
+    skos:prefLabel "Sonstige Romanist:innen"@de ;
     skos:broader ROM-Systematik:ROM_A_6;
     skos:inScheme ROM-Systematik: .
 
