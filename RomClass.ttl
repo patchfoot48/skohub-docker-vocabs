@@ -12,7 +12,8 @@ ROM-Systematik: a skos:ConceptScheme ;
 
 ROM-Systematik:ROM_A a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen"@de, "Romance_Languages"@en ;
-    skos:topConceptOf ROM-Systematik: .
+    skos:topConceptOf ROM-Systematik: ;
+    skos:exactMatch <https://d-nb.info/gnd/4115788-6>.
 
 ROM-Systematik:ROM_A_1 a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen/Bibliographien_Nachschlagewerke_Sammelwerke"@de, "Bibliographies__Reference_Works_Collections"@en ; 
@@ -66,27 +67,27 @@ ROM-Systematik:ROM_A_6a a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_11 a skos:Concept ;
-    skos:prefLabel "Romanische_Sprachen/Wesen und Geschichte"@de ;
+    skos:prefLabel "Romanische_Sprachen/Wesen und Geschichte"@de, "General_Caracteristics_and_History"@en  ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_21 a skos:Concept ;
-    skos:prefLabel "Romanische_Sprachen/Beziehungen_zu_anderen_Sprachen__Übersetzung"@de ;
+    skos:prefLabel "Romanische_Sprachen/Beziehungen_zu_anderen_Sprachen__Übersetzung"@de, "Relations_to_other_languages_and_Translation"@en  ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_41_bis_80 a skos:Concept ;
-    skos:prefLabel "Romanische_Sprachen/Grammatik"@de ;
+    skos:prefLabel "Romanische_Sprachen/Grammatik"@de, "Grammar"@en  ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_81_bis_140 a skos:Concept ;
-    skos:prefLabel "Romanische_Sprachen/Lexikologie"@de ;
+    skos:prefLabel "Romanische_Sprachen/Lexikologie"@de, "Lexicology"@en  ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_141 a skos:Concept ;
-    skos:prefLabel "Romanische_Sprachen/Wörterbücher"@de ;
+    skos:prefLabel "Romanische_Sprachen/Wörterbücher"@de, "Dictionaries"@en  ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
@@ -96,7 +97,7 @@ ROM-Systematik:ROM_A_231 a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_236 a skos:Concept ;
-    skos:prefLabel "Romanische_Sprachen/Sprachpflege_Sprachpolitik"@de ;
+    skos:prefLabel "Romanische_Sprachen/Sprachpflege_Sprachpolitik"@de, "Language_Policy_and_Language_Maintenance"@en  ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
@@ -139,7 +140,7 @@ ROM-Systematik:ROM_C_1 a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_D a skos:Concept ;
-    skos:prefLabel "Franz_Literatur"@de, "French_Literature"@en;
+    skos:prefLabel "French_Literature"@en, "Französische_Literatur"@de ;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_D_1 a skos:Concept ;
