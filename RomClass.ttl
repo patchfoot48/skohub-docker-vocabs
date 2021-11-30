@@ -13,7 +13,9 @@ ROM-Systematik: a skos:ConceptScheme ;
 ROM-Systematik:ROM_A a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen"@de, "Romance_Languages"@en ;
     skos:topConceptOf ROM-Systematik: ;
-    skos:exactMatch <https://d-nb.info/gnd/4115788-6>.
+    skos:exactMatch <https://d-nb.info/gnd/4115788-6> ;
+    skos:exactMatch <https://catalogue.bnf.fr/ark:/12148/cb11950451w> ;
+    skos:exactMatch <http://id.loc.gov/authorities/subjects/sh85114953> .
 
 ROM-Systematik:ROM_A_1 a skos:Concept ;
     skos:prefLabel "Romanische_Sprachen/Bibliographien_Nachschlagewerke_Sammelwerke"@de, "Bibliographies__Reference_Works_Collections"@en ; 
@@ -102,27 +104,27 @@ ROM-Systematik:ROM_A_236 a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_241 a skos:Concept ;
-    skos:prefLabel "Romanische_Sprachen/Sprachebenen_Soziolinguistik_Pragmatik"@de ;
+    skos:prefLabel "Romanische_Sprachen/Sprachebenen_Soziolinguistik_Pragmatik"@de, "Sociolinguistics_and_Pragmatics"@en ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_261 a skos:Concept ;
-    skos:prefLabel "Romanische_Sprachen/Fachsprachen_Sondersprachen"@de ;
+    skos:prefLabel "Romanische_Sprachen/Fachsprachen_Sondersprachen"@de, "Special_Languages"@en ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_271 a skos:Concept ;
-    skos:prefLabel "Romanische_Sprachen/Sprachgeographie"@de ;
+    skos:prefLabel "Romanische_Sprachen/Sprachgeographie"@de, "Language_Geography"@en ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_286 a skos:Concept ;
-    skos:prefLabel "Romanische_Sprachen/Kreolisch"@de ;
+    skos:prefLabel "Romanische_Sprachen/Kreolisch"@de, "Creole_language"@en ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_999 a skos:Concept ;
-    skos:prefLabel "Romanische_Sprachen/Fachdidaktik"@de ;
+    skos:prefLabel "Romanische_Sprachen/Fachdidaktik"@de, "Language_Acquisition_and_Language_Teaching"@en ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
