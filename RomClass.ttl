@@ -85,13 +85,29 @@ ROM-Systematik:ROM_A_6s a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_6z a skos:Concept ;
-    skos:prefLabel "Sonstige_Romanist:innen"@de, "Other Scholars in Romance Linguistics"@de ;
+    skos:prefLabel "Sonstige_Romanist:innen"@de, "Other_Scholars"@de ;
     skos:broader ROM-Systematik:ROM_A_6;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_11 a skos:Concept ;
     skos:prefLabel "Wesen_und_Geschichte"@de, "General_Caracteristics_and_History"@en  ;
     skos:broader ROM-Systematik:ROM_A ;
+    skos:narrower ROM-Systematik:ROM_A_11a, ROM-Systematik:ROM_A_11c, ROM-Systematik:ROM_A_11e ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_11a a skos:Concept ;
+    skos:prefLabel "Gesamtzeitraum"@de, "General_Works"@de ;
+    skos:broader ROM-Systematik:ROM_A_11;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_11c a skos:Concept ;
+    skos:prefLabel "Älterer_Zeitraum_bis_1500"@de, "Until_1500"@de ;
+    skos:broader ROM-Systematik:ROM_A_11;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_11e a skos:Concept ;
+    skos:prefLabel "Neuere_Zeit_ab_1600"@de, "Since_1600"@de ;
+    skos:broader ROM-Systematik:ROM_A_11;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_21 a skos:Concept ;
