@@ -59,38 +59,38 @@ ROM-Systematik:ROM_A_1p a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_6 a skos:Concept ;
-    skos:prefLabel "Wissenschaftsgeschichte__Wissenschaftliches_Arbeiten__Methoden"@de ;
+    skos:prefLabel "Wissenschaftsgeschichte__Wissenschaftliches_Arbeiten__Methoden"@de, "History of Romance Linguistics, Methods"@en ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:narrower ROM-Systematik:ROM_A_6a, ROM-Systematik:ROM_A_6d, ROM-Systematik:ROM_A_6l, ROM-Systematik:ROM_A_6s, ROM-Systematik:ROM_A_6z ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_6a a skos:Concept ;
-    skos:prefLabel "Allgemeines"@de ;
+    skos:prefLabel "Allgemeines"@de, "General Works"@en ;
     skos:broader ROM-Systematik:ROM_A_6;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_6d a skos:Concept ;
-    skos:prefLabel "Friedrich Diez"@de ;
+    skos:prefLabel "Friedrich_Diez"@de, "Friedrich_Diez"@en ;
     skos:broader ROM-Systematik:ROM_A_6;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_6l a skos:Concept ;
-    skos:prefLabel "Heinrich Lausberg"@de ;
+    skos:prefLabel "Heinrich_Lausberg"@de, "Heinrich_Lausberg"@en ;
     skos:broader ROM-Systematik:ROM_A_6;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_6s a skos:Concept ;
-    skos:prefLabel "Ferdinand de Saussure"@de ;
+    skos:prefLabel "Ferdinand_de_Saussure"@de, "Ferdinand_de_Saussure"@en ;
     skos:broader ROM-Systematik:ROM_A_6;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_6z a skos:Concept ;
-    skos:prefLabel "Sonstige Romanist:innen"@de ;
+    skos:prefLabel "Sonstige_Romanist:innen"@de, "Other Scholars in Romance Linguistics"@de ;
     skos:broader ROM-Systematik:ROM_A_6;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_11 a skos:Concept ;
-    skos:prefLabel "Wesen und Geschichte"@de, "General_Caracteristics_and_History"@en  ;
+    skos:prefLabel "Wesen_und_Geschichte"@de, "General_Caracteristics_and_History"@en  ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
