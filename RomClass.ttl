@@ -85,7 +85,7 @@ ROM-Systematik:ROM_A_6s a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_6z a skos:Concept ;
-    skos:prefLabel "Sonstige_Romanist:innen"@de, "Other_Scholars"@de ;
+    skos:prefLabel "Sonstige_Romanist_innen"@de, "Other_Scholars"@de ;
     skos:broader ROM-Systematik:ROM_A_6;
     skos:inScheme ROM-Systematik: .
 
