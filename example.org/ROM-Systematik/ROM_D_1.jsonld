@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2FROM-Systematik%2FROM_D_1",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2FROM-Systematik%2FROM_D_1",
   "prefLabel": {
-    "en": "Bibliographies Reference Works Collections",
-    "de": "Bibliographien Nachschlagewerke"
+    "en": "Bibliographies, Reference Works and Collections",
+    "de": "Bibliographien und Nachschlagewerke"
   },
   "broader": {
     "id": "https://example.org/ROM-Systematik/ROM_D",
