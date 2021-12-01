@@ -4,8 +4,8 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2FROM-Systematik%2FROM_A_1",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2FROM-Systematik%2FROM_A_1",
   "prefLabel": {
-    "en": "Bibliographies ReferenceWorks and Collections",
-    "de": "Bibliographien Nachschlagewerke und Sammelwerke"
+    "en": "Bibliographies, ReferenceWorks and Collections",
+    "de": "Bibliographien, Nachschlagewerke und Sammelwerke"
   },
   "narrower": [
     {

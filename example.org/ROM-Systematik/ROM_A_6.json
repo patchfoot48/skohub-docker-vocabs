@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2FROM-Systematik%2FROM_A_6",
   "prefLabel": {
     "en": "History of Roman Linguistics and Methods",
-    "de": "Wissenschaftsgeschichte Wissenschaftliches Arbeiten Methoden"
+    "de": "Wissenschaftsgeschichte, Wissenschaftliches Arbeiten, Methoden"
   },
   "narrower": [
     {

@@ -5,7 +5,7 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2FROM-Systematik%2FROM_C_1",
   "prefLabel": {
     "en": "Bibliographies Reference Works and Collections",
-    "de": "Bibliographien Nachschlagewerke und Sammelwerke"
+    "de": "Bibliographien, Nachschlagewerke und Sammelwerke"
   },
   "broader": {
     "id": "https://example.org/ROM-Systematik/ROM_C",
