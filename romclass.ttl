@@ -183,7 +183,7 @@ ROM-Systematik:ROM_D a skos:Concept ;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_D_1 a skos:Concept ;
-    skos:prefLabel "Bibliographien Nachschlagewerke"@de, "Bibliographies Reference Works Collections"@en ;
+    skos:prefLabel "Bibliographien und Nachschlagewerke"@de, "Bibliographies, Reference Works and Collections"@en ;
     skos:broader ROM-Systematik:ROM_D ;
     skos:inScheme ROM-Systematik: .
 
