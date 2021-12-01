@@ -101,7 +101,7 @@ ROM-Systematik:ROM_A_11c a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_11e a skos:Concept ;
-    skos:prefLabel "Neuere Zeit ab 1600"@de, "New Age since 1600"@en ;
+    skos:prefLabel "Neuere Zeiten ab 1600"@de, "New Age since 1600"@en ;
     skos:broader ROM-Systematik:ROM_A_11 ;
     skos:inScheme ROM-Systematik: .
 
