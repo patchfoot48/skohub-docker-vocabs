@@ -1,0 +1,200 @@
+@prefix ROM-Systematik: <https://example.org/ROM-Systematik/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ROM-Systematik: a skos:ConceptScheme ;
+    dct:title "ROM classification"@en, "ROM Systematik"@de ;
+    dct:creator "DG"@de ;
+    dct:created "2021-12-01"^^xsd:date ;
+    dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept ROM-Systematik:ROM_A, ROM-Systematik:ROM_B, ROM-Systematik:ROM_C, ROM-Systematik:ROM_D, ROM-Systematik:ROM_E, ROM-Systematik:ROM_F, ROM-Systematik:ROM_U .
+
+ROM-Systematik:ROM_A a skos:Concept ;
+    skos:prefLabel "Romanische Sprachen"@de, "Roman Languages"@en ;
+    skos:exactMatch <https://d-nb.info/gnd/4115788-6> ; 
+    skos:exactMatch<https://catalogue.bnf.fr/ark:/12148/cb11950451w> ;
+    skos:exactMatch<http://id.loc.gov/authorities/subjects/sh85114953> ;
+skos:topConceptOf ROM-Systematik: .
+
+ROM-Systematik:ROM_A_1 a skos:Concept ;
+    skos:prefLabel "Bibliographien, Nachschlagewerke und Sammelwerke"@de, "Bibliographies, Reference Works and Collections"@en ; 
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:narrower ROM-Systematik:ROM_A_1a, ROM-Systematik:ROM_A_1b, ROM-Systematik:ROM_A_1d, ROM-Systematik:ROM_A_1g, ROM-Systematik:ROM_A_1k, ROM-Systematik:ROM_A_1l, ROM-Systematik:ROM_A_1p ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_1a a skos:Concept ;
+    skos:prefLabel "Bibliographien"@de, "Bibliographies"@en ;
+    skos:broader ROM-Systematik:ROM_A_1 ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_1b a skos:Concept ;
+    skos:prefLabel "Zeitschriften"@de, "Periodicals"@en ;
+    skos:broader ROM-Systematik:ROM_A_1 ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_1d a skos:Concept ;
+    skos:prefLabel "Sammelwerke"@de, "Collections"@en ;
+    skos:broader ROM-Systematik:ROM_A_1 ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_1g a skos:Concept ;
+    skos:prefLabel "Tagungsberichte"@de, "Congress Reports"@en ;
+    skos:broader ROM-Systematik:ROM_A_1 ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_1k a skos:Concept ;
+    skos:prefLabel "Gesamtdarstellungen"@de, "General Works"@en ;
+    skos:broader ROM-Systematik:ROM_A_1 ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_1l a skos:Concept ;
+    skos:prefLabel "Lexika"@de, "Dictionaries and Encyclopaedias"@en ;
+    skos:broader ROM-Systematik:ROM_A_1 ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_1p a skos:Concept ;
+    skos:prefLabel "Textsammlungen"@de, "Anthologies"@en ;
+    skos:broader ROM-Systematik:ROM_A_1 ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_6 a skos:Concept ;
+    skos:prefLabel "Wissenschaftsgeschichte, Wissenschaftliches Arbeiten, Methoden"@de, "History of Roman Linguistics and Methods"@en ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:narrower ROM-Systematik:ROM_A_6a, ROM-Systematik:ROM_A_6d, ROM-Systematik:ROM_A_6l, ROM-Systematik:ROM_A_6s, ROM-Systematik:ROM_A_6z ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_6a a skos:Concept ;
+    skos:prefLabel "Allgemeines"@de, "General Works"@en ;
+    skos:broader ROM-Systematik:ROM_A_6;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_6d a skos:Concept ;
+    skos:prefLabel "Friedrich Diez"@de, "Friedrich Diez"@en ;
+    skos:broader ROM-Systematik:ROM_A_6;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_6l a skos:Concept ;
+    skos:prefLabel "Heinrich Lausberg"@de, "Heinrich Lausberg"@en ;
+    skos:broader ROM-Systematik:ROM_A_6;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_6s a skos:Concept ;
+    skos:prefLabel "Ferdinand de Saussure"@de, "Ferdinand de Saussure"@en ;
+    skos:broader ROM-Systematik:ROM_A_6;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_6z a skos:Concept ;
+    skos:prefLabel "Sonstige Romanistinnen"@de, "Other Scholars"@en ;
+    skos:broader ROM-Systematik:ROM_A_6;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_11 a skos:Concept ;
+    skos:prefLabel "Wesen und Geschichte"@de, "General Characteristics and History"@en ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:narrower ROM-Systematik:ROM_A_11a, ROM-Systematik:ROM_A_11c, ROM-Systematik:ROM_A_11e ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_11a a skos:Concept ;
+    skos:prefLabel "Gesamtzeitraum"@de, "General Works"@en ;
+    skos:broader ROM-Systematik:ROM_A_11 ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_11c a skos:Concept ;
+    skos:prefLabel "Älterer Zeitraum bis 1500"@de, "Old Age until 1500"@en ;
+    skos:broader ROM-Systematik:ROM_A_11 ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_11e a skos:Concept ;
+    skos:prefLabel "Neue Zeiten ab 1600"@de, "New Age since 1600"@en ;
+    skos:broader ROM-Systematik:ROM_A_11 ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_21 a skos:Concept ;
+    skos:prefLabel "Beziehungen zu anderen Sprachen und Übersetzung"@de, "Relations to other languages and translation"@en  ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_41_bis_80 a skos:Concept ;
+    skos:prefLabel "Grammatik"@de, "Grammar"@en  ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_81_bis_140 a skos:Concept ;
+    skos:prefLabel "Lexikologie"@de, "Lexicology"@en  ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_141 a skos:Concept ;
+    skos:prefLabel "Wörterbücher"@de, "Dictionaries"@en ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_231 a skos:Concept ;
+    skos:prefLabel "Metrik und Rhythmus"@de, "Metrics and Rhythm"@en ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_236 a skos:Concept ;
+    skos:prefLabel "Sprachpflege und Sprachpolitik"@de, "Language Policy and Language Maintenance"@en ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_241 a skos:Concept ;
+    skos:prefLabel "Sprachebenen, Soziolinguistik und Pragmatik"@de, "Sociolinguistics and Pragmatics"@en ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_261 a skos:Concept ;
+    skos:prefLabel "Fachsprachen und Sondersprachen"@de, "Special Languages"@en ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_271 a skos:Concept ;
+    skos:prefLabel "Sprachgeographie"@de, "Language Geography"@en ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_286 a skos:Concept ;
+    skos:prefLabel "Kreolisch"@de, "Creole language"@en ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_A_999 a skos:Concept ;
+    skos:prefLabel "Fachdidaktik"@de, "Language Acquisition and Language Teaching"@en ;
+    skos:broader ROM-Systematik:ROM_A ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_B a skos:Concept ;
+    skos:prefLabel "Romanische Literaturen"@de, "Roman Literature"@en ;
+    skos:topConceptOf ROM-Systematik: .
+
+ROM-Systematik:ROM_C a skos:Concept ;
+    skos:prefLabel "Französische Sprache"@de, "French Language"@en ;
+    skos:topConceptOf ROM-Systematik: .
+
+ROM-Systematik:ROM_C_1 a skos:Concept ;
+    skos:prefLabel "Bibliographien, Nachschlagewerke und Sammelwerke"@de, "Bibliographies, Reference Works and Collections"@en ;
+    skos:broader ROM-Systematik:ROM_C ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_D a skos:Concept ;
+    skos:prefLabel "Französische Literatur"@de, "French Literature"@en ;
+    skos:topConceptOf ROM-Systematik: .
+
+ROM-Systematik:ROM_D_1 a skos:Concept ;
+    skos:prefLabel "Bibliographien und Nachschlagewerke"@de, "Bibliographies, Reference Works and Collections"@en ;
+    skos:broader ROM-Systematik:ROM_D ;
+    skos:inScheme ROM-Systematik: .
+
+ROM-Systematik:ROM_E a skos:Concept ;
+    skos:prefLabel "Italienische Sprache"@de, "Italian Language"@en ;
+    skos:topConceptOf ROM-Systematik: .
+    
+ROM-Systematik:ROM_F a skos:Concept ;
+    skos:prefLabel "Italienische Literatur"@de, "Italian Literature"@en ;
+    skos:topConceptOf ROM-Systematik: . 
+
+ROM-Systematik:ROM_U a skos:Concept ;
+    skos:prefLabel "Spanische Literatur"@de, "Spanish Literature"@en ;
+    skos:topConceptOf ROM-Systematik: .
