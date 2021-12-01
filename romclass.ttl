@@ -18,7 +18,7 @@ ROM-Systematik:ROM_A a skos:Concept ;
 skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_A_1 a skos:Concept ;
-    skos:prefLabel "Bibliographien, Nachschlagewerke und Sammelwerke"@de, "Bibliographies, ReferenceWorks and Collections"@en ; 
+    skos:prefLabel "Bibliographien, Nachschlagewerke und Sammelwerke"@de, "Bibliographies, Reference Works and Collections"@en ; 
     skos:broader ROM-Systematik:ROM_A ;
     skos:narrower ROM-Systematik:ROM_A_1a, ROM-Systematik:ROM_A_1b, ROM-Systematik:ROM_A_1d, ROM-Systematik:ROM_A_1g, ROM-Systematik:ROM_A_1k, ROM-Systematik:ROM_A_1l, ROM-Systematik:ROM_A_1p ;
     skos:inScheme ROM-Systematik: .
@@ -174,7 +174,7 @@ ROM-Systematik:ROM_C a skos:Concept ;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_C_1 a skos:Concept ;
-    skos:prefLabel "Bibliographien, Nachschlagewerke und Sammelwerke"@de, "Bibliographies Reference Works and Collections"@en ;
+    skos:prefLabel "Bibliographien, Nachschlagewerke und Sammelwerke"@de, "Bibliographies, Reference Works and Collections"@en ;
     skos:broader ROM-Systematik:ROM_C ;
     skos:inScheme ROM-Systematik: .
 
