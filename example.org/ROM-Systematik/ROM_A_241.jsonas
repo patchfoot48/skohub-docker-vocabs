@@ -1,0 +1,16 @@
+{
+  "id": "https://test.skohub.io/skohub-docker-vocabs/example.org/ROM-Systematik/ROM_A_241",
+  "type": "Service",
+  "preferredUsername": "736b6f6875622d646f636b65722d766f636162732f6578616d706c652e6f72672f524f4d2d53797374656d6174696b2f524f4d5f415f323431",
+  "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2FROM-Systematik%2FROM_A_241",
+  "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2FROM-Systematik%2FROM_A_241",
+  "publicKey": {
+    "id": "https://test.skohub.io/skohub-docker-vocabs/example.org/ROM-Systematik/ROM_A_241#main-key",
+    "owner": "https://test.skohub.io/skohub-docker-vocabs/example.org/ROM-Systematik/ROM_A_241",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyr05JFWnpFGTr423+IRU\nHOgAuoF0RSxdwPpvXbX5uh+2jUBvhXzzklhc5nwfE3XruHTifJWyXFWucJlDPEI1\nxR5p0C0zfqY74ioEoKorifc8no8ZDTQRvIIEqNe0Ezbe085Foc3UWG1kimPcPlqU\nnsgCYgO4UWJ27qABE+yGDykZALdMlAt+dwOPD10NcqmvupH5pgWZJJ9vW2ErTaDt\n2R52JIpqH6CvCsI7jpLyYH60W0N0J0sjSH95lZnyVDYDbplIEPUPpGKYSVJW+dNU\nCxReZBiwS76VDQhyl1lT5JusRCogvsX/bwJrIZ8fJcOBArDx2skknzUHKkjNITsD\nTwIDAQAB\n-----END PUBLIC KEY-----\n"
+  },
+  "@context": [
+    "https://www.w3.org/ns/activitystreams",
+    "https://w3id.org/security/v1"
+  ]
+}
