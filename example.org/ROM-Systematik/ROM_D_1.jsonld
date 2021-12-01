@@ -4,14 +4,14 @@
   "followers": "https://test.skohub.io/followers?subject=skohub-docker-vocabs%2Fexample.org%2FROM-Systematik%2FROM_D_1",
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2FROM-Systematik%2FROM_D_1",
   "prefLabel": {
-    "en": "Bibliographies__Reference_Works_Collections",
-    "de": "Bibliographien_Nachschlagewerke"
+    "en": "Bibliographies Reference Works Collections",
+    "de": "Bibliographien Nachschlagewerke"
   },
   "broader": {
     "id": "https://example.org/ROM-Systematik/ROM_D",
     "prefLabel": {
-      "en": "French_Literature",
-      "de": "Französische_Literatur"
+      "en": "French Literature",
+      "de": "Französische Literatur"
     }
   },
   "inScheme": {

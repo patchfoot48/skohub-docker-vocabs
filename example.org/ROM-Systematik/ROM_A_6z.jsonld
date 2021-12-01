@@ -5,13 +5,13 @@
   "inbox": "https://test.skohub.io/inbox?target=skohub-docker-vocabs%2Fexample.org%2FROM-Systematik%2FROM_A_6z",
   "prefLabel": {
     "en": "Other Scholars",
-    "de": "Sonstige Romanist*innen"
+    "de": "Sonstige Romanistinnen"
   },
   "broader": {
     "id": "https://example.org/ROM-Systematik/ROM_A_6",
     "prefLabel": {
       "en": "History of Roman Linguistics and Methods",
-      "de": "Wissenschaftsgeschichte, Wissenschaftliches Arbeiten, Methoden"
+      "de": "Wissenschaftsgeschichte Wissenschaftliches Arbeiten Methoden"
     }
   },
   "inScheme": {
