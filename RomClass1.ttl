@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ROM-Systematik: a skos:ConceptScheme ;
-    dct:title "classification"@en, "ROM-Systematik"@de ;
+    dct:title "classificationROM"@en, "ROM-Systematik"@de ;
     dct:creator "DG"@de ;
     dct:created "2021-11-27"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
