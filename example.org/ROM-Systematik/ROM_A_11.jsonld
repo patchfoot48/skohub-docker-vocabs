@@ -30,6 +30,13 @@
       }
     }
   ],
+  "broader": {
+    "id": "https://example.org/ROM-Systematik/ROM_A",
+    "prefLabel": {
+      "en": "Roman Languages",
+      "de": "Romanische Sprachen"
+    }
+  },
   "inScheme": {
     "id": "https://example.org/ROM-Systematik/",
     "title": {
