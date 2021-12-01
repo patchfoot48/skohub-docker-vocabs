@@ -16,7 +16,7 @@ ROM-Systematik:ROM_A a skos:Concept ;
 skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_A_1 a skos:Concept ;
-    skos:prefLabel "Bibliographien, Nachschlagewerke und Sammelwerke"@de, "Bibliographies, ReferenceWorks and Collections"@en ; 
+    skos:prefLabel "Bibliographien Nachschlagewerke und Sammelwerke"@de, "Bibliographies ReferenceWorks and Collections"@en ; 
     skos:narrower ROM-Systematik:ROM_A_1a, ROM-Systematik:ROM_A_1b, ROM-Systematik:ROM_A_1d, ROM-Systematik:ROM_A_1g, ROM-Systematik:ROM_A_1k, ROM-Systematik:ROM_A_1l, ROM-Systematik:ROM_A_1p ;
     skos:inScheme ROM-Systematik: .
 
@@ -56,7 +56,7 @@ ROM-Systematik:ROM_A_1p a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_6 a skos:Concept ;
-    skos:prefLabel "Wissenschaftsgeschichte, Wissenschaftliches Arbeiten, Methoden"@de, "History of Roman Linguistics and Methods"@en ;
+    skos:prefLabel "Wissenschaftsgeschichte Wissenschaftliches Arbeiten Methoden"@de, "History of Roman Linguistics and Methods"@en ;
     skos:narrower ROM-Systematik:ROM_A_6a, ROM-Systematik:ROM_A_6d, ROM-Systematik:ROM_A_6l, ROM-Systematik:ROM_A_6s, ROM-Systematik:ROM_A_6z ;
     skos:inScheme ROM-Systematik: .
 
@@ -81,7 +81,7 @@ ROM-Systematik:ROM_A_6s a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_6z a skos:Concept ;
-    skos:prefLabel "Sonstige Romanist*innen"@de, "Other Scholars"@en ;
+    skos:prefLabel "Sonstige Romanistinnen"@de, "Other Scholars"@en ;
     skos:broader ROM-Systematik:ROM_A_6;
     skos:inScheme ROM-Systematik: .
 
@@ -101,12 +101,12 @@ ROM-Systematik:ROM_A_11c a skos:Concept ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_11e a skos:Concept ;
-    skos:prefLabel "Neuere Zeiten ab 1600"@de, "New Age since 1600"@en ;
+    skos:prefLabel "Neue Zeiten ab 1600"@de, "New Age since 1600"@en ;
     skos:broader ROM-Systematik:ROM_A_11 ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_A_21 a skos:Concept ;
-    skos:prefLabel "Beziehungen_zu_anderen_Sprachen__Übersetzung"@de, "Relations_to_other_languages_and_Translation"@en  ;
+    skos:prefLabel "Beziehungen zu anderen Sprachen und Übersetzung"@de, "Relations to other languages and translation"@en  ;
     skos:broader ROM-Systematik:ROM_A ;
     skos:inScheme ROM-Systematik: .
 
@@ -169,16 +169,16 @@ ROM-Systematik:ROM_C a skos:Concept ;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_C_1 a skos:Concept ;
-    skos:prefLabel "Bibliographien, Nachschlagewerke und Sammelwerke"@de, "Bibliographies, Reference Works and Collections"@en ;
+    skos:prefLabel "Bibliographien Nachschlagewerke und Sammelwerke"@de, "Bibliographies Reference Works and Collections"@en ;
     skos:broader ROM-Systematik:ROM_C ;
     skos:inScheme ROM-Systematik: .
 
 ROM-Systematik:ROM_D a skos:Concept ;
-    skos:prefLabel "Französische_Literatur"@de, "French_Literature"@en ;
+    skos:prefLabel "Französische Literatur"@de, "French Literature"@en ;
     skos:topConceptOf ROM-Systematik: .
 
 ROM-Systematik:ROM_D_1 a skos:Concept ;
-    skos:prefLabel "Bibliographien_Nachschlagewerke"@de, "Bibliographies__Reference_Works_Collections"@en ;
+    skos:prefLabel "Bibliographien Nachschlagewerke"@de, "Bibliographies Reference Works Collections"@en ;
     skos:broader ROM-Systematik:ROM_D ;
     skos:inScheme ROM-Systematik: .
 
