@@ -5,7 +5,7 @@
 
 ROM-Systematik: a skos:ConceptScheme ;
     dct:title "ROM classification"@en, "ROM Systematik"@de ;
-    dct:creator "Patch Foot"@de ;
+    dct:creator "DG"@de ;
     dct:created "2021-12-01"^^xsd:date ;
     dct:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept ROM-Systematik:ROM_A, ROM-Systematik:ROM_B, ROM-Systematik:ROM_C, ROM-Systematik:ROM_D, ROM-Systematik:ROM_E, ROM-Systematik:ROM_F, ROM-Systematik:ROM_U .
